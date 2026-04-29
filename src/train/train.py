@@ -14,7 +14,7 @@ from models.model import NMRTopological2D
 
 # training config — edit these before running
 MODE       = "distances"   # "topo" | "xyz" | "distances"
-EPOCHS     = 50
+EPOCHS     = 250
 LR         = 0.001
 HIDDEN_DIM = 128
 NUM_LAYERS = 3
