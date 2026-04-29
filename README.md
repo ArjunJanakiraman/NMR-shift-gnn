@@ -15,6 +15,19 @@ Place the raw dataset at `data/raw/nmrshiftdb2withsignals.sd` before running any
 
 ---
 
+## Dataset setup
+
+The raw SDF is not included in this repo. Download `nmrshiftdb2withsignals.sd` from [NMRShiftDB2](https://nmrshiftdb.nmr.uni-koeln.de/) and place it as follows:
+
+```
+mkdir -p data/raw
+mv nmrshiftdb2withsignals.sd data/raw/
+```
+
+The `data/` directory is gitignored, so nothing in there will be committed.
+
+---
+
 ## Commands
 
 **Process the dataset** (run once — generates graph files in `data/processed/`)
