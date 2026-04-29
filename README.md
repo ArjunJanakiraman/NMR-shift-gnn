@@ -5,6 +5,8 @@ Ablation study comparing three feature representations (`topo`, `xyz`, `distance
 # IMPORTANT NOTE
 All the ipynb resulting graphs all exist in the project paper. If you would like to run it without training the model, please use the attached JSONs, which contain all the data during my training config. Ensure raw data in data/raw/ still.
 
+If you want to train the models, refer to the configs in each JSON.
+
 Keep in mind, these JSONs will be overwritten if you train a model.
 
 ---
