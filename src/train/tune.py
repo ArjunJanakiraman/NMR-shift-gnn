@@ -28,11 +28,11 @@ from data_processer.dataset import NMRShiftDataset
 from models.model import NMRTopological2D
 
 # fixed settings shared across all trials
-TUNE_EPOCHS = 20
+TUNE_EPOCHS = 50
 NUM_LAYERS  = 3
 BATCH_SIZE  = 128
-K_MOLS      = 3000   # default subset size; override with --k_mols
-SAMPLE_SEED = 42     # fixed seed for subset sampling so results are reproducible
+K_MOLS      = 5000   
+SAMPLE_SEED = 42     
 TRAIN_RATIO = 0.8
 
 
