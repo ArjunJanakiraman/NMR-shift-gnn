@@ -3,7 +3,7 @@
 Ablation study comparing three feature representations (`topo`, `xyz`, `distances`) for per-atom 13C NMR chemical shift prediction using a graph attention network on NMRShiftDB2.
 
 # IMPORTANT NOTE
-All the ipynb resulting graphs all exist in the project paper. If you would like to run it without training the model, please use the attached JSONs, which contain all the data during training. Ensure raw data in data/raw still
+All the ipynb resulting graphs all exist in the project paper. If you would like to run it without training the model, please use the attached JSONs, which contain all the data during training. Ensure raw data in data/raw still.
 
 Keep in mind, these JSONs will be overwritten if you train a model.
 
